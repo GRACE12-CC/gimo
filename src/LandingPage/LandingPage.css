@@ -1,0 +1,69 @@
+.landingpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 120px;
+    background-color: antiquewhite;
+}
+
+.landImage {
+    background-image: url("../img/R.png");
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+
+}
+
+.TextLand {
+    width: 75%;
+    height: 100%;
+
+}
+
+.welcome {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.appname {
+    color: brown;
+}
+
+.details {
+    text-align: left;
+}
+
+.quote {
+    color: brown;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Btn {
+    border-radius: 30px;
+    width: 200px;
+    height: 55px;
+    margin-top: 30px;
+    /* margin-left: 100px; */
+    font-weight: 700px;
+    background-color: brown;
+    font-size: 15px;
+    border: none;
+    color: antiquewhite;
+    border-color: antiquewhite;
+    box-shadow: -3px 45px 255px -24px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: -3px 45px 255px -24px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -3px 45px 255px -24px rgba(0, 0, 0, 0.25);
+}
+.Btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.logo {
+    background-color: rgb(99, 74, 74);
+
+}

@@ -1,0 +1,6 @@
+.one{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
